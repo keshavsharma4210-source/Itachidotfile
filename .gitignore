@@ -1,0 +1,16 @@
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Linux user-specific files
+*.local

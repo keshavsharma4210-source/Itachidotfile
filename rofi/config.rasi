@@ -1,0 +1,44 @@
+configuration {
+    modi: "drun,run";
+    show-icons: true;
+    display-drun: "Apps";
+    display-run: "Run";
+}
+
+* {
+    background: #080808;
+    foreground: #e6e6e6;
+    accent: #ff1a1a;
+}
+
+window {
+    width: 600px;
+    border: 2px;
+    border-color: #6b0000;
+    border-radius: 10px;
+}
+
+mainbox {
+    padding: 20px;
+}
+
+inputbar {
+    padding: 10px;
+}
+
+prompt {
+    text-color: #ff1a1a;
+}
+
+entry {
+    text-color: #e6e6e6;
+}
+
+element {
+    padding: 10px;
+}
+
+element selected {
+    background: #300000;
+    text-color: #ff1a1a;
+}

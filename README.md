@@ -1,0 +1,2 @@
+# Itachidotfile
+hyprland setup

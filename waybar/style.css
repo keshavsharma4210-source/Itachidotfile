@@ -4,7 +4,7 @@
 }
 
 window#waybar {
-    background: rgba(8, 8, 8, 0.92);
+    background: rgba(8, 8, 8, 0.94);
     color: #e6e6e6;
 }
 
@@ -14,7 +14,7 @@ window#waybar {
 
 #workspaces button {
     padding: 0 8px;
-    color: #777777;
+    color: #666666;
     background: transparent;
     border: none;
 }
@@ -27,11 +27,23 @@ window#waybar {
     color: #cc0000;
 }
 
-#clock,
+#window {
+    color: #bdbdbd;
+}
+
 #cpu,
-#memory {
+#memory,
+#clock {
     padding: 0 12px;
     margin-right: 4px;
+}
+
+#cpu {
+    color: #999999;
+}
+
+#memory {
+    color: #999999;
 }
 
 #clock {
